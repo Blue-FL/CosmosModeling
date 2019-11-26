@@ -1,0 +1,58 @@
+using FullModel.Configuration;
+using FullModel.Data;
+using FullModel.Services;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
+namespace FullModel
+{
+	public class Startup
+	{
+		public Startup(IConfiguration configuration)
+		{
+			Configuration = configuration;
+		}
+
+		public IConfiguration Configuration { get; }
+
+		// This method gets called by the runtime. Use this method to add services to the container.
+		public void ConfigureServices(IServiceCollection services)
+		{
+			var cosmosConfiguration = new CosmosConfiguration();
+			Configuration.GetSection("Cosmos").Bind(cosmosConfiguration);
+
+			var testConfiguration = new TestConfiguration();
+			Configuration.GetSection("TestData").Bind(testConfiguration);
+			services.AddSingleton(testConfiguration);
+
+			services.AddControllers();
+			services.AddDbContextPool<FinancialAggregationContext>(options =>
+			{
+				options.UseCosmos(cosmosConfiguration.Endpoint, cosmosConfiguration.Key, cosmosConfiguration.Database);
+			});
+			services.AddHostedService<StartupService>();
+		}
+
+		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+		{
+			if (env.IsDevelopment())
+			{
+				app.UseDeveloperExceptionPage();
+			}
+
+			app.UseRouting();
+
+			app.UseAuthorization();
+
+			app.UseEndpoints(endpoints =>
+			{
+				endpoints.MapControllers();
+			});
+		}
+	}
+}
