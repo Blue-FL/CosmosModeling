@@ -1,22 +1,16 @@
-﻿using System;
+﻿using FullModel.Repositories;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace FullModel.Data
 {
-	public class UserInstitution
+	public class UserInstitution : CosmosEntity
 	{
 		public UserInstitution()
 		{
 			FinancialAccounts = new HashSet<FinancialAccountSlim>();
+			EntityType = nameof(UserInstitution);
 		}
-
-		public Guid Id { get; set; } = Guid.NewGuid();
-
-		public Guid PartitionKey { get; set; }
-
-		public Guid UserId { get; set; }
 
 		public long FinancialInstitutionLoginAccountId { get; set; }
 
@@ -37,8 +31,6 @@ namespace FullModel.Data
 		public bool HasInvalidCredentials { get; set; }
 
 		public string LoginParameterHash { get; set; }
-
-		public DateTime CreatedDateTimeUTC { get; set; } = DateTime.UtcNow;
 
 		public DateTime ModifiedDateTimeUTC { get; set; }
 	}

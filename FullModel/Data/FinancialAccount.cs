@@ -1,11 +1,10 @@
-﻿using System;
+﻿using FullModel.Repositories;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace FullModel.Data
 {
-	public class FinancialAccount
+	public class FinancialAccount : CosmosEntity
 	{
 		public FinancialAccount()
 		{
@@ -13,17 +12,9 @@ namespace FullModel.Data
 			Owners = new HashSet<Owner>();
 			CurrentInvestmentPositions = new HashSet<InvestmentPosition>();
 			CurrentMutualFundPositions = new HashSet<MutualFundPosition>();
+
+			EntityType = nameof(FinancialAccount);
 		}
-
-		/// <summary>
-		/// Unique ID for a financial account
-		/// </summary>
-		public Guid Id { get; set; } = Guid.NewGuid();
-
-		/// <summary>
-		/// User Institution key
-		/// </summary>
-		public Guid PartitionKey { get; set; }
 
 		public bool IsActive { get; set; }
 
@@ -62,8 +53,6 @@ namespace FullModel.Data
 		public bool NeedsClassification { get; set; }
 
 		public bool NeedsDeletion { get; set; }
-
-		public DateTime CreatedDateTimeUTC { get; set; }
 
 		public DateTime ModifiedDateTimeUTC { get; set; }
 

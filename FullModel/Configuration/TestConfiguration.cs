@@ -5,5 +5,7 @@
 		public bool CreateTestData { get; set; }
 
 		public int UserCount { get; set; }
+
+		public bool AddToExistingData { get; set; }
 	}
 }

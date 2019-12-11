@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace FullModel.Data
+﻿namespace FullModel.Data
 {
 	public class DataConstants
 	{
@@ -12,5 +7,10 @@ namespace FullModel.Data
 		public static string FINANCIAL_ACCOUNT_CONTAINER = "FinancialAccount";
 		public static string INSTITUTION_CONTAINER = "Institution";
 		public static string CATEGORY_CONTAINER = "TransactionCategory";
+	}
+
+	public class PartitionConstants
+	{
+		public static string PARTITION_KEY = "/PartitionKey";
 	}
 }

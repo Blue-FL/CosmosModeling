@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace FullModel.Configuration
+﻿namespace FullModel.Configuration
 {
 	public class CosmosConfiguration
 	{
@@ -12,5 +7,7 @@ namespace FullModel.Configuration
 		public string Key { get; set; }
 
 		public string Database { get; set; }
+
+		public int Throughput { get; set; } = 10000;
 	}
 }

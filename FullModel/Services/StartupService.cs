@@ -1,12 +1,14 @@
 ﻿using FullModel.Configuration;
 using FullModel.Data;
-using Microsoft.EntityFrameworkCore;
+using FullModel.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -17,28 +19,39 @@ namespace FullModel.Services
 		ILogger<StartupService> _logger;
 		private readonly IServiceScopeFactory _serviceScopeFactory;
 		private readonly TestConfiguration _testConfiguration;
+		private readonly UserPartitionRepository _userPartitionRepository;
+		private readonly UserInstitutionPartitionRepository _userInstitutionPartitionRepository;
+		private readonly FinancialAccountPartitionRepository _financialAccountPartitionRepository;
 
 		public StartupService(
 			ILogger<StartupService> logger,
 			IServiceScopeFactory serviceScopeFactory,
-			TestConfiguration testConfiguration)
+			TestConfiguration testConfiguration,
+			UserPartitionRepository userPartitionRepository,
+			UserInstitutionPartitionRepository userInstitutionPartitionRepository,
+			FinancialAccountPartitionRepository financialAccountPartitionRepository)
 		{
 			_logger = logger;
 			_serviceScopeFactory = serviceScopeFactory;
 			_testConfiguration = testConfiguration;
+			_userPartitionRepository = userPartitionRepository;
+			_userInstitutionPartitionRepository = userInstitutionPartitionRepository;
+			_financialAccountPartitionRepository = financialAccountPartitionRepository;
 		}
 
 		public async Task StartAsync(CancellationToken cancellationToken)
 		{
-			using var scope = _serviceScopeFactory.CreateScope();
-			var dbContext = scope.ServiceProvider.GetRequiredService<FinancialAggregationContext>();
-			await dbContext.Database.EnsureCreatedAsync();
 			if (_testConfiguration.CreateTestData)
 			{
 				for (int i = 0; i < _testConfiguration.UserCount; i++)
 				{
-					await GenerateTestData(dbContext);
+					await GenerateTestData();
 				}
+			}
+
+			if (_testConfiguration.AddToExistingData)
+			{
+				await AddToExistingUserData();
 			}
 		}
 
@@ -47,14 +60,17 @@ namespace FullModel.Services
 			return Task.CompletedTask;
 		}
 
-		private async Task GenerateTestData(FinancialAggregationContext dbContext)
+		private async Task GenerateTestData()
 		{
+			var overallStopwatch = Stopwatch.StartNew();
 			var userId = Guid.NewGuid();
 			var now = DateTime.UtcNow;
 			var random = new Random();
 
+			var userStopwatch = Stopwatch.StartNew();
 			var user = new User
 			{
+				Id = userId.ToString(),
 				CreatedDateTimeUTC = now,
 				FiservUser = new FiservUser
 				{
@@ -64,18 +80,18 @@ namespace FullModel.Services
 					Password = Guid.NewGuid().ToString(),
 					Username = Guid.NewGuid().ToString()
 				},
-				Id = userId,
-				ModifiedDateTimeUTC = now,
-				PartitionKey = userId,
+				PartitionKey = userId.ToString(),
 			};
 
-			_ = await dbContext.Users.AddAsync(user);
-			await dbContext.SaveChangesAsync();
+			await _userPartitionRepository.AddItemAsync(user);
+			userStopwatch.Stop();
+			_logger.LogInformation("Added user in {userElapsed}ms", userStopwatch.ElapsedMilliseconds);
 
+			
 			var numberOfUserInstitutions = random.Next(1, 5);
-
 			for (int i = 0; i < numberOfUserInstitutions; i++)
 			{
+				var userInstitutionStopwatch = Stopwatch.StartNew();
 				var userInstitutionId = Guid.NewGuid();
 				var userInstitution = new UserInstitution
 				{
@@ -90,20 +106,21 @@ namespace FullModel.Services
 					{
 						Name = "Chase"
 					},
-					Id = userInstitutionId,
+					Id = userInstitutionId.ToString(),
 					LoginParameterHash = "hash",
 					ModifiedDateTimeUTC = now,
-					PartitionKey = userId,
 					RunId = 1234567890,
-					UserId = userId
+					PartitionKey = userId.ToString()
 				};
 
-				var userInstitutionEntity = await dbContext.UserInstitutions.AddAsync(userInstitution);
-				await dbContext.SaveChangesAsync();
+				await _userPartitionRepository.AddItemAsync(userInstitution);
+				userInstitutionStopwatch.Stop();
+				_logger.LogInformation("Added user institutions in {elapsed}ms", userInstitutionStopwatch.ElapsedMilliseconds);
 
 				var numberOfFInancialAccounts = random.Next(1, 8);
 				for (int j = 0; j < numberOfFInancialAccounts; j++)
 				{
+					var financialAccountStopwatch = Stopwatch.StartNew();
 					var financialAccountId = Guid.NewGuid();
 					var financialAccount1 = new FinancialAccount
 					{
@@ -129,16 +146,18 @@ namespace FullModel.Services
 								Name = "Lando Norris"
 							}
 						},
-						Id = financialAccountId,
+						Id = financialAccountId.ToString(),
 						IsActive = true,
 						Name = "Credit Card",
 						Number = "123",
-						PartitionKey = userInstitutionId
+						PartitionKey = userInstitutionId.ToString()
 					};
 
-					var financialAccountEntity = await dbContext.FinancialAccounts.AddAsync(financialAccount1);
-					await dbContext.SaveChangesAsync();
+					await _userInstitutionPartitionRepository.AddItemAsync(financialAccount1);
+					financialAccountStopwatch.Stop();
+					_logger.LogInformation("Add financial account in {elapsed}ms", financialAccountStopwatch.ElapsedMilliseconds);
 
+					var balanceStopwatch = Stopwatch.StartNew();
 					var balances = new List<Balance>
 					{
 						new Balance
@@ -150,7 +169,7 @@ namespace FullModel.Services
 							},
 							CreatedDateTimeUTC = now,
 							ModifiedDateTimeUTC = now,
-							PartitionKey = financialAccountId,
+							PartitionKey = financialAccountId.ToString(),
 							Type = BalType.Avail
 						},
 						new Balance
@@ -162,28 +181,37 @@ namespace FullModel.Services
 							},
 							CreatedDateTimeUTC = now,
 							ModifiedDateTimeUTC = now,
-							PartitionKey = financialAccountId,
+							PartitionKey = financialAccountId.ToString(),
 							Type = BalType.Current
 						}
 					};
+					balanceStopwatch.Stop();
 
-					await dbContext.Balances.AddRangeAsync(balances);
-					await dbContext.SaveChangesAsync();
+					await _financialAccountPartitionRepository.AddItemsAsync(balances).ContinueWith(act =>
+					{
+						_logger.LogInformation("Added 2 balances in {elapsed}ms", balanceStopwatch.ElapsedMilliseconds);
+					});
 					var currentBalances = balances.Select(b => new CurrentBalance
 					{
 						Amount = b.Amount,
 						Type = b.Type
 					})
 					.ToList();
-					userInstitutionEntity.Entity.FinancialAccounts.Add(new FinancialAccountSlim
+
+					userInstitution.FinancialAccounts.Add(new FinancialAccountSlim
 					{
-						AcountNumber = financialAccountEntity.Entity.Number,
+						AcountNumber = financialAccount1.Number,
 						CreatedDateTimeUTC = now,
 						CurrentBalances = currentBalances
 					});
-					await dbContext.SaveChangesAsync();
 
-					var numberOfTransactions = random.Next(1, 20);
+					await _userInstitutionPartitionRepository.UpdateItemAsync(userInstitution);
+
+					var numberOfTransactions = random.Next(1, 8000);
+					var transactions = new List<Transaction>();
+					var transactionStopwatch = Stopwatch.StartNew();
+					var userTransactions = new List<UserTransaction>();
+					var userTransactionStopwatch = Stopwatch.StartNew();
 					for (int k = 0; k < numberOfTransactions; k++)
 					{
 						var transaction = new Transaction
@@ -196,17 +224,17 @@ namespace FullModel.Services
 							},
 							Category = "Test",
 							CreatedDateTimeUTC = now,
-							FinancialAccountId = financialAccountId,
+							PartitionKey = financialAccountId.ToString(),
 							Memo = "memo",
 							ModifiedDateTimeUTC = now,
-							PartitionKey = financialAccountId,
 							PostedDate = now,
 							Subcategory = "Test",
 							Type = TransactionType.DEBIT
 						};
 
-						await dbContext.Transactions.AddAsync(transaction);
-						await dbContext.SaveChangesAsync();
+						var doc = JsonSerializer.Serialize(transaction);
+
+						transactions.Add(transaction);
 
 						var userTransaction = new UserTransaction
 						{
@@ -218,18 +246,86 @@ namespace FullModel.Services
 							Id = transaction.Id,
 							Memo = transaction.Memo,
 							ModifiedDateTimeUTC = transaction.ModifiedDateTimeUTC,
-							PartitionKey = userId,
+							PartitionKey = userId.ToString(),
 							PostedDate = transaction.PostedDate,
 							Subcategory = transaction.Subcategory,
-							
+
 							Type = transaction.Type,
 						};
 
-						await dbContext.UserTransactions.AddAsync(userTransaction);
-						await dbContext.SaveChangesAsync();
+						userTransactions.Add(userTransaction);
 					}
+
+					await _userPartitionRepository.AddItemsAsync(userTransactions).ContinueWith(act =>
+					{
+						userTransactionStopwatch.Stop();
+						_logger.LogInformation("Added {count} user transactions in {elapsed}ms", numberOfTransactions, userTransactionStopwatch.ElapsedMilliseconds);
+					});
+
+					await _financialAccountPartitionRepository.AddItemsAsync(transactions).ContinueWith(act =>
+					{
+						userTransactionStopwatch.Stop();
+						_logger.LogInformation("Add {count} transactions in {elapsed}ms", numberOfTransactions, transactionStopwatch.ElapsedMilliseconds);
+					});
 				}
 			}
+			overallStopwatch.Stop();
+
+			_logger.LogInformation("Completed add user {userId} in {overall}ms", userId, overallStopwatch.ElapsedMilliseconds);
+		}
+
+		private async Task AddToExistingUserData()
+		{
+			//var userId = (await dbContext.Users.FirstAsync()).PartitionKey;
+			//var random = new Random();
+			//var now = DateTime.Now;
+			//var userInstitution = await dbContext.UserInstitutions.FirstOrDefaultAsync(fa => fa.PartitionKey == userId);
+
+			//var numberOfTransactions = random.Next(1, 15);
+			//for (int i = 0; i < numberOfTransactions; i++)
+			//{
+			//	var transaction = new Transaction
+			//	{
+			//		AggregatorTransactionId = 1,
+			//		Amount = new Amount
+			//		{
+			//			Currency = CurCodeType.USD,
+			//			Value = 3.50m
+			//		},
+			//		Category = "Test",
+			//		CreatedDateTimeUTC = now,
+			//		FinancialAccountId = userInstitution.FinancialAccounts.First().FinancialAccountId,
+			//		Memo = "memo",
+			//		ModifiedDateTimeUTC = now,
+			//		PartitionKey = userInstitution.FinancialAccounts.First().FinancialAccountId,
+			//		PostedDate = now,
+			//		Subcategory = "Test",
+			//		Type = TransactionType.DEBIT
+			//	};
+
+			//	await dbContext.Transactions.AddAsync(transaction);
+			//	await dbContext.SaveChangesAsync();
+
+			//	var userTransaction = new UserTransaction
+			//	{
+			//		AggregatorTransactionId = transaction.AggregatorTransactionId,
+			//		Amount = transaction.Amount,
+			//		Category = transaction.Category,
+			//		CreatedDateTimeUTC = transaction.CreatedDateTimeUTC,
+			//		FinancialAccountId = userInstitution.FinancialAccounts.First().FinancialAccountId,
+			//		Id = transaction.Id,
+			//		Memo = transaction.Memo,
+			//		ModifiedDateTimeUTC = transaction.ModifiedDateTimeUTC,
+			//		PartitionKey = userId,
+			//		PostedDate = transaction.PostedDate,
+			//		Subcategory = transaction.Subcategory,
+
+			//		Type = transaction.Type,
+			//	};
+
+			//	await dbContext.UserTransactions.AddAsync(userTransaction);
+			//	await dbContext.SaveChangesAsync();
+			//}
 		}
 	}
 }

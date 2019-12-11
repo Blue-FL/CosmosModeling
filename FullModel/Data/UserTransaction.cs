@@ -1,20 +1,17 @@
-﻿using System;
+﻿using FullModel.Repositories;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace FullModel.Data
 {
-	public class UserTransaction
+	public class UserTransaction : CosmosEntity
 	{
 		public UserTransaction()
 		{
+			EntityType = nameof(UserTransaction);
+
 			Attachments = new HashSet<Attachment>();
 		}
-
-		public Guid Id { get; set; } = Guid.NewGuid();
-
-		public Guid PartitionKey { get; set; }
 
 		public Guid FinancialAccountId { get; set; }
 
@@ -37,8 +34,6 @@ namespace FullModel.Data
 		public bool IsRemoved { get; set; }
 
 		public DateTime? RemovedDateTimeUTC { get; set; }
-
-		public DateTime CreatedDateTimeUTC { get; set; }
 
 		public DateTime ModifiedDateTimeUTC { get; set; }
 

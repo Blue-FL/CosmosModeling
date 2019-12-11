@@ -1,0 +1,700 @@
+2019-12-10 09:00:01.372 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:00:11.542 -06:00 [INF] Added 6360 user transactions in 8554ms
+2019-12-10 09:00:19.401 -06:00 [INF] Add 6360 transactions in 16414ms
+2019-12-10 09:00:20.993 -06:00 [INF] Add financial account in 1591ms
+2019-12-10 09:00:21.372 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:00:29.559 -06:00 [INF] Added 4689 user transactions in 6563ms
+2019-12-10 09:00:34.393 -06:00 [INF] Add 4689 transactions in 11396ms
+2019-12-10 09:00:34.393 -06:00 [INF] Completed add user "56b220b4-8234-432a-ab50-7f0241109197" in 161989ms
+2019-12-10 09:00:34.547 -06:00 [INF] Added user in 153ms
+2019-12-10 09:00:35.551 -06:00 [INF] Added user institutions in 1003ms
+2019-12-10 09:00:35.992 -06:00 [INF] Add financial account in 441ms
+2019-12-10 09:00:36.376 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:00:40.546 -06:00 [INF] Added 1226 user transactions in 2561ms
+2019-12-10 09:00:43.405 -06:00 [INF] Add 1226 transactions in 5420ms
+2019-12-10 09:00:44.988 -06:00 [INF] Add financial account in 1582ms
+2019-12-10 09:00:45.360 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:00:51.573 -06:00 [INF] Added 3380 user transactions in 5577ms
+2019-12-10 09:00:56.399 -06:00 [INF] Add 3380 transactions in 10403ms
+2019-12-10 09:00:56.998 -06:00 [INF] Add financial account in 598ms
+2019-12-10 09:00:58.365 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:01:05.553 -06:00 [INF] Added 4958 user transactions in 6561ms
+2019-12-10 09:01:12.390 -06:00 [INF] Add 4958 transactions in 13398ms
+2019-12-10 09:01:13.994 -06:00 [INF] Add financial account in 1603ms
+2019-12-10 09:01:15.368 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:01:18.565 -06:00 [INF] Added 2464 user transactions in 2571ms
+2019-12-10 09:01:22.400 -06:00 [INF] Add 2464 transactions in 6406ms
+2019-12-10 09:01:22.991 -06:00 [INF] Add financial account in 590ms
+2019-12-10 09:01:24.374 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:01:28.549 -06:00 [INF] Added 1213 user transactions in 2552ms
+2019-12-10 09:01:31.367 -06:00 [INF] Add 1213 transactions in 5371ms
+2019-12-10 09:01:31.549 -06:00 [INF] Added user institutions in 181ms
+2019-12-10 09:01:31.996 -06:00 [INF] Add financial account in 447ms
+2019-12-10 09:01:32.371 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:01:36.541 -06:00 [INF] Added 2304 user transactions in 2543ms
+2019-12-10 09:01:40.373 -06:00 [INF] Add 2304 transactions in 6375ms
+2019-12-10 09:01:40.992 -06:00 [INF] Add financial account in 619ms
+2019-12-10 09:01:41.374 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:01:46.555 -06:00 [INF] Added 2714 user transactions in 3561ms
+2019-12-10 09:01:50.366 -06:00 [INF] Add 2714 transactions in 7373ms
+2019-12-10 09:01:50.988 -06:00 [INF] Add financial account in 621ms
+2019-12-10 09:01:51.366 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:01:58.576 -06:00 [INF] Added 5121 user transactions in 6583ms
+2019-12-10 09:02:05.377 -06:00 [INF] Add 5121 transactions in 13383ms
+2019-12-10 09:02:06.989 -06:00 [INF] Add financial account in 1612ms
+2019-12-10 09:02:07.377 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:02:11.557 -06:00 [INF] Added 1278 user transactions in 2564ms
+2019-12-10 09:02:14.389 -06:00 [INF] Add 1278 transactions in 5396ms
+2019-12-10 09:02:14.997 -06:00 [INF] Add financial account in 607ms
+2019-12-10 09:02:16.371 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:02:22.565 -06:00 [INF] Added 5227 user transactions in 5572ms
+2019-12-10 09:02:28.392 -06:00 [INF] Add 5227 transactions in 11399ms
+2019-12-10 09:02:28.989 -06:00 [INF] Add financial account in 596ms
+2019-12-10 09:02:30.370 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:02:33.571 -06:00 [INF] Added 784 user transactions in 2573ms
+2019-12-10 09:02:34.434 -06:00 [INF] Add 784 transactions in 3435ms
+2019-12-10 09:02:35.997 -06:00 [INF] Add financial account in 1563ms
+2019-12-10 09:02:36.373 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:02:47.545 -06:00 [INF] Added 7197 user transactions in 9556ms
+2019-12-10 09:02:56.379 -06:00 [INF] Add 7197 transactions in 18389ms
+2019-12-10 09:02:56.379 -06:00 [INF] Completed add user "04ccb551-3cab-4adc-bfe5-3a1c6ff48e87" in 141985ms
+2019-12-10 09:02:57.540 -06:00 [INF] Added user in 1160ms
+2019-12-10 09:02:59.548 -06:00 [INF] Added user institutions in 2008ms
+2019-12-10 09:02:59.991 -06:00 [INF] Add financial account in 442ms
+2019-12-10 09:03:00.368 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:03:02.587 -06:00 [INF] Added 1505 user transactions in 1592ms
+2019-12-10 09:03:04.374 -06:00 [INF] Add 1505 transactions in 3379ms
+2019-12-10 09:03:04.551 -06:00 [INF] Added user institutions in 177ms
+2019-12-10 09:03:04.995 -06:00 [INF] Add financial account in 443ms
+2019-12-10 09:03:06.361 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:03:10.576 -06:00 [INF] Added 3377 user transactions in 3580ms
+2019-12-10 09:03:14.403 -06:00 [INF] Add 3377 transactions in 7408ms
+2019-12-10 09:03:14.992 -06:00 [INF] Add financial account in 588ms
+2019-12-10 09:03:16.369 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:03:19.550 -06:00 [INF] Added 2633 user transactions in 2562ms
+2019-12-10 09:03:22.391 -06:00 [INF] Add 2633 transactions in 5403ms
+2019-12-10 09:03:23.996 -06:00 [INF] Add financial account in 1604ms
+2019-12-10 09:03:24.374 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:03:31.544 -06:00 [INF] Added 4702 user transactions in 5550ms
+2019-12-10 09:03:36.378 -06:00 [INF] Add 4702 transactions in 10384ms
+2019-12-10 09:03:36.987 -06:00 [INF] Add financial account in 608ms
+2019-12-10 09:03:37.373 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:03:42.573 -06:00 [INF] Added 4440 user transactions in 4575ms
+2019-12-10 09:03:47.379 -06:00 [INF] Add 4440 transactions in 9381ms
+2019-12-10 09:03:47.992 -06:00 [INF] Add financial account in 613ms
+2019-12-10 09:03:48.369 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:03:57.577 -06:00 [INF] Added 5712 user transactions in 7583ms
+2019-12-10 09:04:05.395 -06:00 [INF] Add 5712 transactions in 15402ms
+2019-12-10 09:04:05.992 -06:00 [INF] Add financial account in 596ms
+2019-12-10 09:04:07.376 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:04:12.551 -06:00 [INF] Added 2805 user transactions in 4556ms
+2019-12-10 09:04:16.389 -06:00 [INF] Add 2805 transactions in 8394ms
+2019-12-10 09:04:16.539 -06:00 [INF] Added user institutions in 150ms
+2019-12-10 09:04:16.996 -06:00 [INF] Add financial account in 456ms
+2019-12-10 09:04:17.364 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:04:22.556 -06:00 [INF] Added 2268 user transactions in 3558ms
+2019-12-10 09:04:25.388 -06:00 [INF] Add 2268 transactions in 6390ms
+2019-12-10 09:04:25.993 -06:00 [INF] Add financial account in 604ms
+2019-12-10 09:04:26.371 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:04:27.557 -06:00 [INF] Added 428 user transactions in 560ms
+2019-12-10 09:04:28.382 -06:00 [INF] Add 428 transactions in 1385ms
+2019-12-10 09:04:28.994 -06:00 [INF] Add financial account in 611ms
+2019-12-10 09:04:30.361 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:04:33.580 -06:00 [INF] Added 2292 user transactions in 2582ms
+2019-12-10 09:04:37.389 -06:00 [INF] Add 2292 transactions in 6391ms
+2019-12-10 09:04:37.987 -06:00 [INF] Add financial account in 597ms
+2019-12-10 09:04:38.374 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:04:46.584 -06:00 [INF] Added 5507 user transactions in 7594ms
+2019-12-10 09:04:54.371 -06:00 [INF] Add 5507 transactions in 15380ms
+2019-12-10 09:04:55.996 -06:00 [INF] Add financial account in 1625ms
+2019-12-10 09:04:56.372 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:05:03.591 -06:00 [INF] Added 4257 user transactions in 5598ms
+2019-12-10 09:05:10.399 -06:00 [INF] Add 4257 transactions in 12407ms
+2019-12-10 09:05:10.400 -06:00 [INF] Completed add user "55bd1827-4e2b-42fa-a9dc-02094e1a0a2d" in 134020ms
+2019-12-10 09:05:10.555 -06:00 [INF] Added user in 154ms
+2019-12-10 09:05:12.554 -06:00 [INF] Added user institutions in 1999ms
+2019-12-10 09:05:13.002 -06:00 [INF] Add financial account in 447ms
+2019-12-10 09:05:13.369 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:05:20.631 -06:00 [INF] Added 5132 user transactions in 5639ms
+2019-12-10 09:05:27.371 -06:00 [INF] Add 5132 transactions in 12378ms
+2019-12-10 09:05:28.987 -06:00 [INF] Add financial account in 1616ms
+2019-12-10 09:05:29.373 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:05:39.549 -06:00 [INF] Added 6453 user transactions in 8543ms
+2019-12-10 09:05:48.388 -06:00 [INF] Add 6453 transactions in 17383ms
+2019-12-10 09:05:48.995 -06:00 [INF] Add financial account in 606ms
+2019-12-10 09:05:50.362 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:05:51.571 -06:00 [INF] Added 637 user transactions in 574ms
+2019-12-10 09:05:53.383 -06:00 [INF] Add 637 transactions in 2387ms
+2019-12-10 09:05:53.992 -06:00 [INF] Add financial account in 608ms
+2019-12-10 09:05:55.368 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:06:03.565 -06:00 [INF] Added 6617 user transactions in 7576ms
+2019-12-10 09:06:11.382 -06:00 [INF] Add 6617 transactions in 15393ms
+2019-12-10 09:06:11.987 -06:00 [INF] Add financial account in 604ms
+2019-12-10 09:06:13.379 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:06:17.561 -06:00 [INF] Added 2375 user transactions in 2567ms
+2019-12-10 09:06:20.395 -06:00 [INF] Add 2375 transactions in 5401ms
+2019-12-10 09:06:20.395 -06:00 [INF] Completed add user "3a9ba906-560e-4f1c-994c-1c2dcfe70a04" in 69995ms
+2019-12-10 09:06:21.549 -06:00 [INF] Added user in 1153ms
+2019-12-10 09:06:22.557 -06:00 [INF] Added user institutions in 1008ms
+2019-12-10 09:06:22.989 -06:00 [INF] Add financial account in 432ms
+2019-12-10 09:06:23.364 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:06:28.547 -06:00 [INF] Added 3743 user transactions in 4551ms
+2019-12-10 09:06:32.416 -06:00 [INF] Add 3743 transactions in 8420ms
+2019-12-10 09:06:32.993 -06:00 [INF] Add financial account in 577ms
+2019-12-10 09:06:34.366 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:06:38.557 -06:00 [INF] Added 3165 user transactions in 3567ms
+2019-12-10 09:06:43.384 -06:00 [INF] Add 3165 transactions in 8394ms
+2019-12-10 09:06:43.995 -06:00 [INF] Add financial account in 610ms
+2019-12-10 09:06:44.375 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:06:48.575 -06:00 [INF] Added 832 user transactions in 2582ms
+2019-12-10 09:06:49.385 -06:00 [INF] Add 832 transactions in 3392ms
+2019-12-10 09:06:50.996 -06:00 [INF] Add financial account in 1611ms
+2019-12-10 09:06:51.372 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:06:56.582 -06:00 [INF] Added 2449 user transactions in 3588ms
+2019-12-10 09:07:00.369 -06:00 [INF] Add 2449 transactions in 7376ms
+2019-12-10 09:07:00.550 -06:00 [INF] Added user institutions in 180ms
+2019-12-10 09:07:00.993 -06:00 [INF] Add financial account in 442ms
+2019-12-10 09:07:02.362 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:07:09.563 -06:00 [INF] Added 5701 user transactions in 6572ms
+2019-12-10 09:07:17.393 -06:00 [INF] Add 5701 transactions in 14401ms
+2019-12-10 09:07:17.393 -06:00 [INF] Completed add user "dbf9bb00-a367-4c2f-9372-b900140da4b8" in 56998ms
+2019-12-10 09:07:18.541 -06:00 [INF] Added user in 1147ms
+2019-12-10 09:07:20.549 -06:00 [INF] Added user institutions in 2008ms
+2019-12-10 09:07:20.996 -06:00 [INF] Add financial account in 446ms
+2019-12-10 09:07:21.377 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:07:26.567 -06:00 [INF] Added 3239 user transactions in 3575ms
+2019-12-10 09:07:30.376 -06:00 [INF] Add 3239 transactions in 7384ms
+2019-12-10 09:07:31.992 -06:00 [INF] Add financial account in 1616ms
+2019-12-10 09:07:33.369 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:07:35.552 -06:00 [INF] Added 1428 user transactions in 1554ms
+2019-12-10 09:07:38.399 -06:00 [INF] Add 1428 transactions in 4402ms
+2019-12-10 09:07:39.988 -06:00 [INF] Add financial account in 1589ms
+2019-12-10 09:07:40.378 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:07:49.564 -06:00 [INF] Added 7692 user transactions in 8570ms
+2019-12-10 09:07:59.396 -06:00 [INF] Add 7692 transactions in 18402ms
+2019-12-10 09:08:00.986 -06:00 [INF] Add financial account in 1590ms
+2019-12-10 09:08:01.374 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:08:09.580 -06:00 [INF] Added 5936 user transactions in 6594ms
+2019-12-10 09:08:17.372 -06:00 [INF] Add 5936 transactions in 14386ms
+2019-12-10 09:08:18.991 -06:00 [INF] Add financial account in 1619ms
+2019-12-10 09:08:20.366 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:08:24.561 -06:00 [INF] Added 2642 user transactions in 3570ms
+2019-12-10 09:08:27.400 -06:00 [INF] Add 2642 transactions in 6410ms
+2019-12-10 09:08:27.993 -06:00 [INF] Add financial account in 592ms
+2019-12-10 09:08:29.366 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:08:35.567 -06:00 [INF] Added 4429 user transactions in 5576ms
+2019-12-10 09:08:40.378 -06:00 [INF] Add 4429 transactions in 10387ms
+2019-12-10 09:08:40.993 -06:00 [INF] Add financial account in 615ms
+2019-12-10 09:08:41.371 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:08:46.553 -06:00 [INF] Added 3028 user transactions in 3555ms
+2019-12-10 09:08:51.384 -06:00 [INF] Add 3028 transactions in 8386ms
+2019-12-10 09:08:51.542 -06:00 [INF] Added user institutions in 158ms
+2019-12-10 09:08:51.991 -06:00 [INF] Add financial account in 448ms
+2019-12-10 09:08:53.369 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:08:57.557 -06:00 [INF] Added 2488 user transactions in 3556ms
+2019-12-10 09:09:00.392 -06:00 [INF] Add 2488 transactions in 6390ms
+2019-12-10 09:09:00.991 -06:00 [INF] Add financial account in 599ms
+2019-12-10 09:09:02.370 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:09:08.578 -06:00 [INF] Added 4465 user transactions in 5585ms
+2019-12-10 09:09:13.386 -06:00 [INF] Add 4465 transactions in 10393ms
+2019-12-10 09:09:14.992 -06:00 [INF] Add financial account in 1606ms
+2019-12-10 09:09:15.362 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:09:22.547 -06:00 [INF] Added 5294 user transactions in 6549ms
+2019-12-10 09:09:28.384 -06:00 [INF] Add 5294 transactions in 12386ms
+2019-12-10 09:09:29.995 -06:00 [INF] Add financial account in 1610ms
+2019-12-10 09:09:30.365 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:09:41.578 -06:00 [INF] Added 7022 user transactions in 9577ms
+2019-12-10 09:09:50.389 -06:00 [INF] Add 7022 transactions in 18388ms
+2019-12-10 09:09:50.988 -06:00 [INF] Add financial account in 599ms
+2019-12-10 09:09:51.376 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:09:59.553 -06:00 [INF] Added 5538 user transactions in 7558ms
+2019-12-10 09:10:05.440 -06:00 [INF] Add 5538 transactions in 13445ms
+2019-12-10 09:10:05.987 -06:00 [INF] Add financial account in 546ms
+2019-12-10 09:10:07.368 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:10:17.556 -06:00 [INF] Added 7551 user transactions in 8565ms
+2019-12-10 09:10:26.399 -06:00 [INF] Add 7551 transactions in 17409ms
+2019-12-10 09:10:26.399 -06:00 [INF] Completed add user "81678781-ed5c-4c98-9951-b660a48c90dc" in 189006ms
+2019-12-10 09:10:27.541 -06:00 [INF] Added user in 1141ms
+2019-12-10 09:10:29.540 -06:00 [INF] Added user institutions in 1999ms
+2019-12-10 09:10:30.992 -06:00 [INF] Add financial account in 1451ms
+2019-12-10 09:10:31.374 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:10:34.551 -06:00 [INF] Added 1051 user transactions in 2559ms
+2019-12-10 09:10:35.403 -06:00 [INF] Add 1051 transactions in 3412ms
+2019-12-10 09:10:36.993 -06:00 [INF] Add financial account in 1589ms
+2019-12-10 09:10:37.374 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:10:44.557 -06:00 [INF] Added 4261 user transactions in 5564ms
+2019-12-10 09:10:49.384 -06:00 [INF] Add 4261 transactions in 10391ms
+2019-12-10 09:10:49.995 -06:00 [INF] Add financial account in 610ms
+2019-12-10 09:10:50.369 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:10:51.582 -06:00 [INF] Added 659 user transactions in 582ms
+2019-12-10 09:10:52.390 -06:00 [INF] Add 659 transactions in 1390ms
+2019-12-10 09:10:53.993 -06:00 [INF] Add financial account in 1603ms
+2019-12-10 09:10:54.375 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:10:56.553 -06:00 [INF] Added 606 user transactions in 560ms
+2019-12-10 09:10:57.374 -06:00 [INF] Add 606 transactions in 1381ms
+2019-12-10 09:10:58.996 -06:00 [INF] Add financial account in 1621ms
+2019-12-10 09:10:59.372 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:11:05.563 -06:00 [INF] Added 3050 user transactions in 4568ms
+2019-12-10 09:11:10.372 -06:00 [INF] Add 3050 transactions in 9377ms
+2019-12-10 09:11:11.988 -06:00 [INF] Add financial account in 1616ms
+2019-12-10 09:11:12.369 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:11:22.544 -06:00 [INF] Added 7171 user transactions in 9539ms
+2019-12-10 09:11:31.378 -06:00 [INF] Add 7171 transactions in 18374ms
+2019-12-10 09:11:31.994 -06:00 [INF] Add financial account in 615ms
+2019-12-10 09:11:33.364 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:11:40.564 -06:00 [INF] Added 5218 user transactions in 6573ms
+2019-12-10 09:11:46.385 -06:00 [INF] Add 5218 transactions in 12395ms
+2019-12-10 09:11:46.385 -06:00 [INF] Completed add user "607e66bf-9b43-4727-830c-3b72a79a0ffd" in 79985ms
+2019-12-10 09:11:47.555 -06:00 [INF] Added user in 1169ms
+2019-12-10 09:11:49.544 -06:00 [INF] Added user institutions in 1989ms
+2019-12-10 09:11:49.993 -06:00 [INF] Add financial account in 448ms
+2019-12-10 09:11:51.371 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:11:54.560 -06:00 [INF] Added 1869 user transactions in 2568ms
+2019-12-10 09:11:57.382 -06:00 [INF] Add 1869 transactions in 5389ms
+2019-12-10 09:11:58.995 -06:00 [INF] Add financial account in 1613ms
+2019-12-10 09:12:00.372 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:12:03.553 -06:00 [INF] Added 2348 user transactions in 2559ms
+2019-12-10 09:12:06.380 -06:00 [INF] Add 2348 transactions in 5386ms
+2019-12-10 09:12:06.992 -06:00 [INF] Add financial account in 611ms
+2019-12-10 09:12:07.373 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:12:13.556 -06:00 [INF] Added 4395 user transactions in 5559ms
+2019-12-10 09:12:19.398 -06:00 [INF] Add 4395 transactions in 11401ms
+2019-12-10 09:12:19.993 -06:00 [INF] Add financial account in 594ms
+2019-12-10 09:12:20.371 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:12:25.554 -06:00 [INF] Added 2717 user transactions in 3566ms
+2019-12-10 09:12:29.376 -06:00 [INF] Add 2717 transactions in 7389ms
+2019-12-10 09:12:30.544 -06:00 [INF] Added user institutions in 1167ms
+2019-12-10 09:12:30.996 -06:00 [INF] Add financial account in 451ms
+2019-12-10 09:12:31.375 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:12:40.549 -06:00 [INF] Added 6346 user transactions in 7562ms
+2019-12-10 09:12:47.401 -06:00 [INF] Add 6346 transactions in 14413ms
+2019-12-10 09:12:47.991 -06:00 [INF] Add financial account in 589ms
+2019-12-10 09:12:48.368 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:12:55.590 -06:00 [INF] Added 5238 user transactions in 5604ms
+2019-12-10 09:13:02.377 -06:00 [INF] Add 5238 transactions in 12391ms
+2019-12-10 09:13:02.995 -06:00 [INF] Add financial account in 617ms
+2019-12-10 09:13:03.378 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:13:14.567 -06:00 [INF] Added 7273 user transactions in 9571ms
+2019-12-10 09:13:24.393 -06:00 [INF] Add 7273 transactions in 19397ms
+2019-12-10 09:13:24.992 -06:00 [INF] Add financial account in 599ms
+2019-12-10 09:13:26.376 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:13:30.546 -06:00 [INF] Added 1121 user transactions in 2546ms
+2019-12-10 09:13:32.378 -06:00 [INF] Add 1121 transactions in 4378ms
+2019-12-10 09:13:32.994 -06:00 [INF] Add financial account in 615ms
+2019-12-10 09:13:33.372 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:13:44.681 -06:00 [INF] Added 7200 user transactions in 9692ms
+2019-12-10 09:13:54.378 -06:00 [INF] Add 7200 transactions in 19389ms
+2019-12-10 09:13:54.991 -06:00 [INF] Add financial account in 612ms
+2019-12-10 09:13:55.369 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:14:02.571 -06:00 [INF] Added 4534 user transactions in 5577ms
+2019-12-10 09:14:07.396 -06:00 [INF] Add 4534 transactions in 10402ms
+2019-12-10 09:14:08.540 -06:00 [INF] Added user institutions in 1144ms
+2019-12-10 09:14:08.997 -06:00 [INF] Add financial account in 456ms
+2019-12-10 09:14:09.375 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:14:16.572 -06:00 [INF] Added 4126 user transactions in 5580ms
+2019-12-10 09:14:21.390 -06:00 [INF] Add 4126 transactions in 10398ms
+2019-12-10 09:14:21.993 -06:00 [INF] Add financial account in 602ms
+2019-12-10 09:14:23.379 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:14:33.559 -06:00 [INF] Added 7443 user transactions in 8562ms
+2019-12-10 09:14:43.395 -06:00 [INF] Add 7443 transactions in 18398ms
+2019-12-10 09:14:44.993 -06:00 [INF] Add financial account in 1597ms
+2019-12-10 09:14:45.372 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:14:50.561 -06:00 [INF] Added 2331 user transactions in 3569ms
+2019-12-10 09:14:53.381 -06:00 [INF] Add 2331 transactions in 6389ms
+2019-12-10 09:14:53.995 -06:00 [INF] Add financial account in 614ms
+2019-12-10 09:14:54.364 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:14:59.552 -06:00 [INF] Added 2595 user transactions in 3563ms
+2019-12-10 09:15:02.410 -06:00 [INF] Add 2595 transactions in 6421ms
+2019-12-10 09:15:02.539 -06:00 [INF] Added user institutions in 129ms
+2019-12-10 09:15:03.995 -06:00 [INF] Add financial account in 1455ms
+2019-12-10 09:15:04.365 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:15:15.568 -06:00 [INF] Added 7941 user transactions in 9579ms
+2019-12-10 09:15:24.364 -06:00 [INF] Add 7941 transactions in 18376ms
+2019-12-10 09:15:24.364 -06:00 [INF] Completed add user "9e5bbbe2-32a1-4df8-906f-964b39423578" in 217979ms
+2019-12-10 09:15:25.541 -06:00 [INF] Added user in 1175ms
+2019-12-10 09:15:27.540 -06:00 [INF] Added user institutions in 1999ms
+2019-12-10 09:15:27.995 -06:00 [INF] Add financial account in 454ms
+2019-12-10 09:15:29.373 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:15:34.567 -06:00 [INF] Added 2438 user transactions in 3573ms
+2019-12-10 09:15:38.393 -06:00 [INF] Add 2438 transactions in 7400ms
+2019-12-10 09:15:38.987 -06:00 [INF] Add financial account in 593ms
+2019-12-10 09:15:40.361 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:15:50.577 -06:00 [INF] Added 7607 user transactions in 9583ms
+2019-12-10 09:16:00.399 -06:00 [INF] Add 7607 transactions in 19405ms
+2019-12-10 09:16:00.988 -06:00 [INF] Add financial account in 588ms
+2019-12-10 09:16:02.375 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:16:10.544 -06:00 [INF] Added 5980 user transactions in 7550ms
+2019-12-10 09:16:17.396 -06:00 [INF] Add 5980 transactions in 14403ms
+2019-12-10 09:16:17.991 -06:00 [INF] Add financial account in 594ms
+2019-12-10 09:16:19.376 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:16:25.556 -06:00 [INF] Added 3645 user transactions in 4561ms
+2019-12-10 09:16:30.386 -06:00 [INF] Add 3645 transactions in 9392ms
+2019-12-10 09:16:31.991 -06:00 [INF] Add financial account in 1604ms
+2019-12-10 09:16:33.365 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:16:40.596 -06:00 [INF] Added 5310 user transactions in 5608ms
+2019-12-10 09:16:46.405 -06:00 [INF] Add 5310 transactions in 11417ms
+2019-12-10 09:16:46.405 -06:00 [INF] Completed add user "0f524ed4-2574-40e8-a7c6-1f6cd9b30fb1" in 82040ms
+2019-12-10 09:17:08.556 -06:00 [INF] Added user in 2017ms
+2019-12-10 09:17:10.555 -06:00 [INF] Added user institutions in 1998ms
+2019-12-10 09:17:11.552 -06:00 [INF] Add financial account in 997ms
+2019-12-10 09:17:12.578 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:17:22.552 -06:00 [INF] Added 5969 user transactions in 7990ms
+2019-12-10 09:17:29.564 -06:00 [INF] Add 5969 transactions in 15002ms
+2019-12-10 09:17:31.561 -06:00 [INF] Add financial account in 1996ms
+2019-12-10 09:17:33.561 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:17:41.591 -06:00 [INF] Added 4768 user transactions in 6029ms
+2019-12-10 09:17:47.565 -06:00 [INF] Add 4768 transactions in 12003ms
+2019-12-10 09:17:49.560 -06:00 [INF] Add financial account in 1994ms
+2019-12-10 09:17:51.561 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:17:56.560 -06:00 [INF] Added 2191 user transactions in 2994ms
+2019-12-10 09:17:58.606 -06:00 [INF] Add 2191 transactions in 5039ms
+2019-12-10 09:18:00.560 -06:00 [INF] Add financial account in 1953ms
+2019-12-10 09:18:02.565 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:18:13.608 -06:00 [INF] Added 7921 user transactions in 9047ms
+2019-12-10 09:18:22.562 -06:00 [INF] Add 7921 transactions in 18001ms
+2019-12-10 09:18:23.549 -06:00 [INF] Add financial account in 987ms
+2019-12-10 09:18:24.561 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:18:29.567 -06:00 [INF] Added 1411 user transactions in 3005ms
+2019-12-10 09:18:31.616 -06:00 [INF] Add 1411 transactions in 5054ms
+2019-12-10 09:18:33.561 -06:00 [INF] Add financial account in 1945ms
+2019-12-10 09:18:35.559 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:18:44.564 -06:00 [INF] Added 5108 user transactions in 7006ms
+2019-12-10 09:18:50.576 -06:00 [INF] Add 5108 transactions in 13018ms
+2019-12-10 09:18:52.547 -06:00 [INF] Add financial account in 1970ms
+2019-12-10 09:18:53.555 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:18:56.611 -06:00 [INF] Added 2014 user transactions in 2060ms
+2019-12-10 09:19:00.557 -06:00 [INF] Add 2014 transactions in 6006ms
+2019-12-10 09:19:00.557 -06:00 [INF] Completed add user "c4293d7e-555b-4d6f-a091-8679c0a21f4a" in 114017ms
+2019-12-10 09:19:02.561 -06:00 [INF] Added user in 2004ms
+2019-12-10 09:19:04.551 -06:00 [INF] Added user institutions in 1989ms
+2019-12-10 09:19:05.556 -06:00 [INF] Add financial account in 1005ms
+2019-12-10 09:19:07.554 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:19:12.605 -06:00 [INF] Added 2582 user transactions in 3045ms
+2019-12-10 09:19:15.615 -06:00 [INF] Add 2582 transactions in 6054ms
+2019-12-10 09:19:17.561 -06:00 [INF] Add financial account in 1946ms
+2019-12-10 09:19:19.566 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:19:30.568 -06:00 [INF] Added 6443 user transactions in 9009ms
+2019-12-10 09:19:38.572 -06:00 [INF] Add 6443 transactions in 17013ms
+2019-12-10 09:19:39.550 -06:00 [INF] Add financial account in 977ms
+2019-12-10 09:19:40.556 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:19:45.569 -06:00 [INF] Added 1230 user transactions in 3010ms
+2019-12-10 09:19:48.578 -06:00 [INF] Add 1230 transactions in 6019ms
+2019-12-10 09:19:50.567 -06:00 [INF] Add financial account in 1989ms
+2019-12-10 09:19:52.558 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:20:00.549 -06:00 [INF] Added 4621 user transactions in 5988ms
+2019-12-10 09:20:05.615 -06:00 [INF] Add 4621 transactions in 11055ms
+2019-12-10 09:20:07.559 -06:00 [INF] Added user institutions in 1943ms
+2019-12-10 09:20:09.559 -06:00 [INF] Add financial account in 1999ms
+2019-12-10 09:20:11.549 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:20:14.609 -06:00 [INF] Added 292 user transactions in 1046ms
+2019-12-10 09:20:16.582 -06:00 [INF] Add 292 transactions in 3019ms
+2019-12-10 09:20:17.554 -06:00 [INF] Add financial account in 971ms
+2019-12-10 09:20:18.555 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:20:26.564 -06:00 [INF] Added 5301 user transactions in 7014ms
+2019-12-10 09:20:32.590 -06:00 [INF] Add 5301 transactions in 13040ms
+2019-12-10 09:20:34.559 -06:00 [INF] Add financial account in 1968ms
+2019-12-10 09:20:36.559 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:20:47.590 -06:00 [INF] Added 7797 user transactions in 9030ms
+2019-12-10 09:20:56.594 -06:00 [INF] Add 7797 transactions in 18035ms
+2019-12-10 09:20:57.552 -06:00 [INF] Add financial account in 957ms
+2019-12-10 09:20:59.560 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:21:02.582 -06:00 [INF] Added 1054 user transactions in 1022ms
+2019-12-10 09:21:03.587 -06:00 [INF] Add 1054 transactions in 2027ms
+2019-12-10 09:21:05.559 -06:00 [INF] Add financial account in 1971ms
+2019-12-10 09:21:07.558 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:21:18.589 -06:00 [INF] Added 6805 user transactions in 9022ms
+2019-12-10 09:21:27.566 -06:00 [INF] Add 6805 transactions in 17999ms
+2019-12-10 09:21:28.551 -06:00 [INF] Add financial account in 984ms
+2019-12-10 09:21:30.560 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:21:39.584 -06:00 [INF] Added 6182 user transactions in 7023ms
+2019-12-10 09:21:47.573 -06:00 [INF] Add 6182 transactions in 15012ms
+2019-12-10 09:21:47.573 -06:00 [INF] Completed add user "7dc0dc8a-5d2b-4bac-b5ed-e440eaac4fe6" in 167016ms
+2019-12-10 09:21:49.559 -06:00 [INF] Added user in 1985ms
+2019-12-10 09:21:51.558 -06:00 [INF] Added user institutions in 1999ms
+2019-12-10 09:21:53.562 -06:00 [INF] Add financial account in 2003ms
+2019-12-10 09:21:55.564 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:22:06.564 -06:00 [INF] Added 7244 user transactions in 9005ms
+2019-12-10 09:22:15.571 -06:00 [INF] Add 7244 transactions in 18013ms
+2019-12-10 09:22:16.551 -06:00 [INF] Add financial account in 978ms
+2019-12-10 09:22:17.554 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:22:24.681 -06:00 [INF] Added 4332 user transactions in 5120ms
+2019-12-10 09:22:30.559 -06:00 [INF] Add 4332 transactions in 10999ms
+2019-12-10 09:22:31.548 -06:00 [INF] Add financial account in 988ms
+2019-12-10 09:22:32.547 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:22:37.601 -06:00 [INF] Added 3099 user transactions in 4047ms
+2019-12-10 09:22:41.548 -06:00 [INF] Add 3099 transactions in 7995ms
+2019-12-10 09:22:42.560 -06:00 [INF] Add financial account in 1011ms
+2019-12-10 09:22:44.557 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:22:55.577 -06:00 [INF] Added 6605 user transactions in 9019ms
+2019-12-10 09:23:04.574 -06:00 [INF] Add 6605 transactions in 18015ms
+2019-12-10 09:23:05.547 -06:00 [INF] Add financial account in 973ms
+2019-12-10 09:23:06.551 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:23:10.604 -06:00 [INF] Added 2168 user transactions in 2934ms
+2019-12-10 09:23:14.578 -06:00 [INF] Add 2168 transactions in 6908ms
+2019-12-10 09:23:16.560 -06:00 [INF] Add financial account in 1981ms
+2019-12-10 09:23:18.553 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:23:28.566 -06:00 [INF] Added 6537 user transactions in 8004ms
+2019-12-10 09:23:36.557 -06:00 [INF] Add 6537 transactions in 15996ms
+2019-12-10 09:23:38.557 -06:00 [INF] Added user institutions in 2000ms
+2019-12-10 09:23:40.561 -06:00 [INF] Add financial account in 2003ms
+2019-12-10 09:23:42.555 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:23:45.572 -06:00 [INF] Added 526 user transactions in 1007ms
+2019-12-10 09:23:46.570 -06:00 [INF] Add 526 transactions in 2005ms
+2019-12-10 09:23:48.557 -06:00 [INF] Add financial account in 1987ms
+2019-12-10 09:23:50.556 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:23:54.560 -06:00 [INF] Added 13 user transactions in 2000ms
+2019-12-10 09:23:55.556 -06:00 [INF] Add 13 transactions in 2996ms
+2019-12-10 09:23:57.560 -06:00 [INF] Add financial account in 2004ms
+2019-12-10 09:23:59.556 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:24:02.579 -06:00 [INF] Added 640 user transactions in 1022ms
+2019-12-10 09:24:04.570 -06:00 [INF] Add 640 transactions in 3012ms
+2019-12-10 09:24:06.560 -06:00 [INF] Add financial account in 1990ms
+2019-12-10 09:24:08.560 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:24:15.598 -06:00 [INF] Added 4487 user transactions in 5042ms
+2019-12-10 09:24:21.563 -06:00 [INF] Add 4487 transactions in 11008ms
+2019-12-10 09:24:23.562 -06:00 [INF] Add financial account in 1998ms
+2019-12-10 09:24:25.553 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:24:29.557 -06:00 [INF] Added 202 user transactions in 1999ms
+2019-12-10 09:24:31.562 -06:00 [INF] Add 202 transactions in 4004ms
+2019-12-10 09:24:33.557 -06:00 [INF] Add financial account in 1995ms
+2019-12-10 09:24:35.559 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:24:43.561 -06:00 [INF] Added 4059 user transactions in 6003ms
+2019-12-10 09:24:48.584 -06:00 [INF] Add 4059 transactions in 11025ms
+2019-12-10 09:24:50.558 -06:00 [INF] Add financial account in 1973ms
+2019-12-10 09:24:52.560 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:25:03.576 -06:00 [INF] Added 7077 user transactions in 9019ms
+2019-12-10 09:25:11.567 -06:00 [INF] Add 7077 transactions in 17010ms
+2019-12-10 09:25:13.555 -06:00 [INF] Added user institutions in 1987ms
+2019-12-10 09:25:15.557 -06:00 [INF] Add financial account in 2002ms
+2019-12-10 09:25:17.548 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:25:22.596 -06:00 [INF] Added 3760 user transactions in 4047ms
+2019-12-10 09:25:27.575 -06:00 [INF] Add 3760 transactions in 9027ms
+2019-12-10 09:25:28.548 -06:00 [INF] Add financial account in 973ms
+2019-12-10 09:25:30.559 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:25:41.572 -06:00 [INF] Added 6824 user transactions in 9013ms
+2019-12-10 09:25:49.607 -06:00 [INF] Add 6824 transactions in 17048ms
+2019-12-10 09:25:51.552 -06:00 [INF] Add financial account in 1944ms
+2019-12-10 09:25:53.560 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:26:04.590 -06:00 [INF] Added 7816 user transactions in 9031ms
+2019-12-10 09:26:13.551 -06:00 [INF] Add 7816 transactions in 17991ms
+2019-12-10 09:26:14.559 -06:00 [INF] Add financial account in 1008ms
+2019-12-10 09:26:16.559 -06:00 [INF] Added 2 balances in 0ms
+2019-12-10 09:26:22.572 -06:00 [INF] Added 2941 user transactions in 4014ms
+2019-12-10 09:26:25.634 -06:00 [INF] Add 2941 transactions in 7076ms
+2019-12-10 09:26:25.634 -06:00 [INF] Completed add user "52936b8b-5146-4d51-bbf3-a7afbb7dafe8" in 278060ms
+2019-12-10 09:26:25.758 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-12-10 09:26:25.758 -06:00 [INF] Hosting environment: Development
+2019-12-10 09:26:25.758 -06:00 [INF] Content root path: C:\Code\CosmosModeling\FullModel
+2019-12-10 09:26:25.793 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:15155/user  
+2019-12-10 09:26:25.822 -06:00 [INF] Executing endpoint 'FullModel.Controllers.UserController.GetUsers (FullModel)'
+2019-12-10 09:26:25.847 -06:00 [INF] Route matched with {action = "GetUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsers() on controller FullModel.Controllers.UserController (FullModel).
+2019-12-10 09:26:25.920 -06:00 [INF] Executing action method FullModel.Controllers.UserController.GetUsers (FullModel) - Validation state: "Valid"
+2019-12-10 09:28:08.791 -06:00 [INF] Executed action FullModel.Controllers.UserController.GetUsers (FullModel) in 102938.5498ms
+2019-12-10 09:28:08.797 -06:00 [INF] Executed endpoint 'FullModel.Controllers.UserController.GetUsers (FullModel)'
+2019-12-10 09:28:08.803 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Azure.Cosmos.CosmosException : Response status code does not indicate success: 400 Substatus: 0 Reason: (Microsoft.Azure.Cosmos.CosmosException : Microsoft.Azure.Cosmos.Query.Core.Monads.ExceptionWithStackTraceException: TryCatch resulted in an exception. ---> Microsoft.Azure.Cosmos.Query.Core.Monads.ExceptionWithStackTraceException: TryCatch resulted in an exception. ---> Microsoft.Azure.Cosmos.Query.Core.Exceptions.ExpectedQueryPartitionProviderException: {"errors":[{"severity":"Error","location":{"start":22,"end":23},"code":"SC1001","message":"Syntax error, incorrect syntax near 'c'."}]}
+ ---> System.Runtime.InteropServices.COMException (0x800A0B00): 0x800A0B00
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.Cosmos.Query.QueryPartitionProvider.TryGetPartitionedQueryExecutionInfoInternal(SqlQuerySpec querySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean requireFormattableOrderByQuery, Boolean isContinuationExpected, Boolean allowNonValueAggregateQuery, Boolean hasLogicalPartitionKey)
+   at Microsoft.Azure.Cosmos.Query.QueryPartitionProvider.TryGetPartitionedQueryExecutionInfo(SqlQuerySpec querySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean requireFormattableOrderByQuery, Boolean isContinuationExpected, Boolean allowNonValueAggregateQuery, Boolean hasLogicalPartitionKey)
+   at Microsoft.Azure.Cosmos.CosmosQueryClientCore.TryGetPartitionedQueryExecutionInfoAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean requireFormattableOrderByQuery, Boolean isContinuationExpected, Boolean allowNonValueAggregateQuery, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.CosmosQueryClientCore.TryGetPartitionedQueryExecutionInfoAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean requireFormattableOrderByQuery, Boolean isContinuationExpected, Boolean allowNonValueAggregateQuery, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.QueryPlanHandler.TryGetQueryInfoAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.QueryPlanHandler.TryGetQueryInfoAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.QueryPlanHandler.TryGetQueryPlanAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, QueryFeatures supportedQueryFeatures, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.QueryPlanHandler.TryGetQueryPlanAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, QueryFeatures supportedQueryFeatures, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.QueryPlanRetriever.GetQueryPlanWithServiceInteropAsync(CosmosQueryClient queryClient, SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.QueryPlanRetriever.GetQueryPlanWithServiceInteropAsync(CosmosQueryClient queryClient, SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextFactory.TryCreateCoreContextAsync(CosmosQueryContext cosmosQueryContext, InputParameters inputParameters, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextFactory.TryCreateCoreContextAsync(CosmosQueryContext cosmosQueryContext, InputParameters inputParameters, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextFactory.<>c__DisplayClass2_0.<Create>b__1(CancellationToken innerCancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.AsyncLazy`1.GetValueAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.Core.AsyncLazy`1.GetValueAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.LazyCosmosQueryExecutionContext.ExecuteNextAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.LazyCosmosQueryExecutionContext.ExecuteNextAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextWithNameCacheStaleRetry.ExecuteNextAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextWithNameCacheStaleRetry.ExecuteNextAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CatchAllCosmosQueryExecutionContext.ExecuteNextAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CatchAllCosmosQueryExecutionContext.ExecuteNextAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.QueryIterator.ReadNextAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.QueryIterator.ReadNextAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.FeedIteratorCore`1.ReadNextAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.FeedIteratorCore`1.ReadNextAsync(CancellationToken cancellationToken)
+   at FullModel.Repositories.CosmosRepositories.GetItemsAsync[T](String queryString)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at FullModel.Repositories.CosmosRepositories.GetItemsAsync[T](String queryString)
+   at FullModel.Controllers.UserController.GetUsers()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at FullModel.Controllers.UserController.GetUsers()
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Hosting.HostingApplication.ProcessRequestAsync(Context context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.HandleRequest()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.HandleRequest()
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.Cosmos.Query.QueryPartitionProvider.TryGetPartitionedQueryExecutionInfo(SqlQuerySpec querySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean requireFormattableOrderByQuery, Boolean isContinuationExpected, Boolean allowNonValueAggregateQuery, Boolean hasLogicalPartitionKey)
+   at Microsoft.Azure.Cosmos.CosmosQueryClientCore.TryGetPartitionedQueryExecutionInfoAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean requireFormattableOrderByQuery, Boolean isContinuationExpected, Boolean allowNonValueAggregateQuery, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.CosmosQueryClientCore.TryGetPartitionedQueryExecutionInfoAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean requireFormattableOrderByQuery, Boolean isContinuationExpected, Boolean allowNonValueAggregateQuery, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.QueryPlanHandler.TryGetQueryInfoAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.QueryPlanHandler.TryGetQueryInfoAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.QueryPlanHandler.TryGetQueryPlanAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, QueryFeatures supportedQueryFeatures, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.QueryPlanHandler.TryGetQueryPlanAsync(SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, QueryFeatures supportedQueryFeatures, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.QueryPlanRetriever.GetQueryPlanWithServiceInteropAsync(CosmosQueryClient queryClient, SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.QueryPlanRetriever.GetQueryPlanWithServiceInteropAsync(CosmosQueryClient queryClient, SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextFactory.TryCreateCoreContextAsync(CosmosQueryContext cosmosQueryContext, InputParameters inputParameters, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextFactory.TryCreateCoreContextAsync(CosmosQueryContext cosmosQueryContext, InputParameters inputParameters, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextFactory.<>c__DisplayClass2_0.<Create>b__1(CancellationToken innerCancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.AsyncLazy`1.GetValueAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.Core.AsyncLazy`1.GetValueAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.LazyCosmosQueryExecutionContext.ExecuteNextAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.LazyCosmosQueryExecutionContext.ExecuteNextAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextWithNameCacheStaleRetry.ExecuteNextAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextWithNameCacheStaleRetry.ExecuteNextAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CatchAllCosmosQueryExecutionContext.ExecuteNextAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CatchAllCosmosQueryExecutionContext.ExecuteNextAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.QueryIterator.ReadNextAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.Query.QueryIterator.ReadNextAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.FeedIteratorCore`1.ReadNextAsync(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Azure.Cosmos.FeedIteratorCore`1.ReadNextAsync(CancellationToken cancellationToken)
+   at FullModel.Repositories.CosmosRepositories.GetItemsAsync[T](String queryString)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at FullModel.Repositories.CosmosRepositories.GetItemsAsync[T](String queryString)
+   at FullModel.Controllers.UserController.GetUsers()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at FullModel.Controllers.UserController.GetUsers()
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Hosting.HostingApplication.ProcessRequestAsync(Context context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.HandleRequest()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.HandleRequest()
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+StatusCode = BadRequest;
+SubStatusCode = 0;
+ActivityId = 00000000-0000-0000-0000-000000000000;
+RequestCharge = 0;
+   at Microsoft.Azure.Cosmos.Query.QueryPlanRetriever.GetQueryPlanWithServiceInteropAsync(CosmosQueryClient queryClient, SqlQuerySpec sqlQuerySpec, PartitionKeyDefinition partitionKeyDefinition, Boolean hasLogicalPartitionKey, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextFactory.TryCreateCoreContextAsync(CosmosQueryContext cosmosQueryContext, InputParameters inputParameters, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.AsyncLazy`1.GetValueAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.LazyCosmosQueryExecutionContext.ExecuteNextAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CosmosQueryExecutionContextWithNameCacheStaleRetry.ExecuteNextAsync(CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Query.Core.ExecutionContext.CatchAllCosmosQueryExecutionContext.ExecuteNextAsync(CancellationToken cancellationToken)).
+StatusCode = BadRequest;
+SubStatusCode = 0;
+ActivityId = 00000000-0000-0000-0000-000000000000;
+RequestCharge = 0;
+[]
+   at Microsoft.Azure.Cosmos.ResponseMessage.EnsureSuccessStatusCode()
+   at Microsoft.Azure.Cosmos.CosmosResponseFactory.CreateQueryFeedResponseHelper[T](ResponseMessage cosmosResponseMessage, Boolean usePropertySerializer)
+   at Microsoft.Azure.Cosmos.CosmosResponseFactory.CreateQueryFeedResponse[T](ResponseMessage cosmosResponseMessage)
+   at Microsoft.Azure.Cosmos.FeedIteratorCore`1.ReadNextAsync(CancellationToken cancellationToken)
+   at FullModel.Repositories.CosmosRepositories.GetItemsAsync[T](String queryString) in C:\Code\CosmosModeling\FullModel\Repositories\CosmosRepositories.cs:line 75
+   at FullModel.Controllers.UserController.GetUsers() in C:\Code\CosmosModeling\FullModel\Controllers\UserController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-12-10 09:28:08.966 -06:00 [INF] Request finished in 103175.3985ms 500 text/html; charset=utf-8
+2019-12-10 09:28:09.134 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:15155/favicon.ico  
+2019-12-10 09:28:09.135 -06:00 [INF] Request finished in 1.3224ms 0 
